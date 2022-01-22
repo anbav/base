@@ -1,0 +1,26 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "#### `npm i`, `npm start`",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anbav/base.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anbav/base/issues"
+  },
+  "homepage": "https://github.com/anbav/base#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "@hapi/inert": "^6.0.5",
+    "dotenv": "^14.1.0"
+  }
+}
